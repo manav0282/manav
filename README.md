@@ -1,14 +1,26 @@
-# Manav Patel — Creative IT Portfolio (Next.js + React Three Fiber)
+# Manav Patel — IT Portfolio
 
-## Local
+A sleek, engaging portfolio with a subtle 3D wavy background (Three.js), Apple‑like glass UI, and animated sections.
+
+## 🚀 Quick Start
+```bash
 npm i
-npm run dev
+npm run dev   # http://localhost:3000
+```
 
-## Deploy (Vercel)
-1) Push to a new GitHub repo
-2) Vercel -> New Project -> Import -> Deploy
+## 🧰 Tech
+- Next.js 14 (App Router)
+- Tailwind CSS
+- Three.js (custom shader plane)
+- Framer Motion
 
-## Customize
-- Text: app/page.tsx
-- 3D: components/ThreeCreative.tsx
-- Colors: tailwind.config.ts
+## 📦 Deploy to Vercel
+1. Push this folder to a new GitHub repo.
+2. On Vercel, **New Project → Import** the repo.
+3. Build command: `next build` (auto)
+4. Output: `.next` (auto)
+
+## 📝 Customize
+- Replace `/public/manav.jpg` with your photo if desired.
+- Update content in `components/*`.
+- Resume lives at `/public/Manav_Patel_Resume.pdf` and is linked in the navbar.
