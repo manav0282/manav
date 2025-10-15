@@ -61,26 +61,14 @@ export default function Page() {
           <div>
             <h3 className="text-xl md:text-2xl font-semibold">Support Specialist — <span className="text-white/60">Shopify</span></h3>
             <div className="text-white/50 text-sm mb-2">Remote • Aug 2025 — Present</div>
-            <ul className="list-disc ml-5 space-y-2 text-white/80">
-              <li>Resolved complex SaaS issues across APIs, payments, and integrations; partnered with engineering to escalate bugs.</li>
-              <li>Guided merchants adopting AI‑powered tools; contributed knowledge articles for faster answers.</li>
-            </ul>
           </div>
           <div>
             <h3 className="text-xl md:text-2xl font-semibold">Technical Support Advisor — <span className="text-white/60">Concentrix</span></h3>
             <div className="text-white/50 text-sm mb-2">Remote (Belleville, ON) • Feb 2025 — Aug 2025</div>
-            <ul className="list-disc ml-5 space-y-2 text-white/80">
-              <li>Tier 1–2 support for APIs/integrations; used DevTools/logs to diagnose browser & network issues.</li>
-              <li>Maintained SLAs with clean escalations and cross‑team collaboration.</li>
-            </ul>
           </div>
           <div>
             <h3 className="text-xl md:text-2xl font-semibold">IT Help Desk Technician — <span className="text-white/60">St. Clair College</span></h3>
             <div className="text-white/50 text-sm mb-2">Windsor, ON • Jan 2023 — Apr 2024</div>
-            <ul className="list-disc ml-5 space-y-2 text-white/80">
-              <li>Windows/Linux support, VPN/auth issues, O365/Teams administration.</li>
-              <li>Wrote KBs that reduced repeat tickets.</li>
-            </ul>
           </div>
         </div>
       </Section>

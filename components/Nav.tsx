@@ -1,6 +1,5 @@
 'use client';
-import Logo from './Logo';
-
+import Logo from '@/components/Logo';
 export default function Nav(){
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-white/10 bg-black/30 backdrop-blur">

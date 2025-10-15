@@ -6,26 +6,16 @@ import { useRef } from 'react';
 
 function GlassSphere(){
   const ref = useRef<THREE.Mesh>(null!);
-  useFrame((_s, d) => {
-    ref.current.rotation.y += d * 0.2;
-  });
+  useFrame((_s, d) => { ref.current.rotation.y += d * 0.2; });
   return (
     <Float floatIntensity={1} rotationIntensity={0.3}>
       <mesh ref={ref}>
         <icosahedronGeometry args={[1.4, 2]} />
-        <meshPhysicalMaterial
-          transmission={0.95}
-          thickness={1.2}
-          roughness={0.05}
-          metalness={0}
-          clearcoat={1}
-          color={'white'}
-        />
+        <meshPhysicalMaterial transmission={0.95} thickness={1.2} roughness={0.05} clearcoat={1} color={'white'} />
       </mesh>
     </Float>
   )
 }
-
 function Halo(){
   return (
     <mesh rotation-x={-Math.PI/2} position={[0,-2,0]}>
@@ -34,7 +24,6 @@ function Halo(){
     </mesh>
   )
 }
-
 export default function ThreeScene(){
   return (
     <div className="absolute inset-0 -z-10">
