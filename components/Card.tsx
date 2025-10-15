@@ -1,0 +1,1 @@
+import { ReactNode } from 'react';export default function Card({children}:{children:ReactNode}){return <div className='rounded-2xl border border-white/10 bg-white/5 p-6 md:p-8 shadow-card hover:shadow-glow transition'>{children}</div>}

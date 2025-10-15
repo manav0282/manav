@@ -19,7 +19,9 @@
     "jsx": "preserve",
     "incremental": true,
     "types": [
-      "node"
+      "node",
+      "react",
+      "react-dom"
     ],
     "baseUrl": ".",
     "paths": {
@@ -30,9 +32,9 @@
   },
   "include": [
     "next-env.d.ts",
+    "types/**/*.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "types/**/*.d.ts"
+    "**/*.tsx"
   ],
   "exclude": [
     "node_modules"

@@ -1,5 +1,6 @@
 'use client';
 import Logo from '@/components/Logo';
+
 export default function Nav(){
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-white/10 bg-black/30 backdrop-blur">
@@ -9,6 +10,7 @@ export default function Nav(){
           <a href="#about" className="hover:text-white">About</a>
           <a href="#experience" className="hover:text-white">Experience</a>
           <a href="#projects" className="hover:text-white">Projects</a>
+          <a href="#references" className="hover:text-white">References</a>
           <a href="#contact" className="hover:text-white">Contact</a>
           <a href="https://www.linkedin.com/in/manav0282" target="_blank" className="hover:text-white">LinkedIn</a>
         </div>

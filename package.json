@@ -1,5 +1,5 @@
 {
-  "name": "manav-portfolio-3d",
+  "name": "manav-portfolio-creative",
   "private": true,
   "version": "1.0.0",
   "scripts": {
@@ -19,13 +19,13 @@
   },
   "devDependencies": {
     "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.5",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.10",
-    "typescript": "5.6.3",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0"
+    "typescript": "5.6.3"
   }
 }
